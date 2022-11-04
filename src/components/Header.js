@@ -86,12 +86,24 @@ function Header() {
               sx={{
                 display: { xs: 'block', md: 'none' },
               }}
+<<<<<<< Updated upstream
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
+=======
+            > 
+                  
+              {pages.map((page) => (
+                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">{page}</Typography>
+                </MenuItem>            
+              ))}
+                   
+              
+>>>>>>> Stashed changes
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
@@ -128,7 +140,11 @@ function Header() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+<<<<<<< Updated upstream
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+=======
+                <Avatar alt="Julia Khalina" src="" />
+>>>>>>> Stashed changes
               </IconButton>
             </Tooltip>
             <Menu
