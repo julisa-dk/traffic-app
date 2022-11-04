@@ -1,11 +1,15 @@
-import './App.css';
+import React from 'react';
+import OperatorsTable from './components/OperatorsTable';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1>Traffic Data app</h1>
-      </header>
+
+      <Header />
+
+      <OperatorsTable />
+      
     </div>
   );
 }
